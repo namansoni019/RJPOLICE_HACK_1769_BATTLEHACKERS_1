@@ -1,0 +1,26 @@
+.main{
+    max-width: 1280px;
+    display:flex;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#view{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
